@@ -194,8 +194,8 @@ nav ul li a {
 /*contact related CSS*/
 
 .contact {
-    background: lightgray;
-    height: 400px;
+    background: #80808020;
+    height: 300px;
     padding: 64px 0;
 }
 
@@ -204,9 +204,7 @@ nav ul li a {
     width: 25%;
 }
 
-.contact-column-body {
-    padding: 64px;
-}
+.contact-column-body {}
 
 .contact-column-body h3 {
     margin: 12px 0;
