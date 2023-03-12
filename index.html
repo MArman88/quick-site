@@ -1,158 +1,228 @@
-<!DOCTYPE html>
-<html lang="en">
+body {
+    color: #003153;
+    font-size: 1.2vw;
+    margin: 0;
+    padding: 0;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quick Site</title>
-    <link rel="stylesheet" href="styles/index-page.css">
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-</head>
+section {
+    overflow: hidden;
+}
 
-<body>
-    <header>
-        <div class="wrapper">
-            <div class="logo">
-                <a href="#"><img src="assets/images/dark.svg" alt=""></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#blogs">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="services" class="services">
-        <div class="wrapper">
-            <h1>
-                It't Time To Amplify Your<br><span>Online Business</span>
-            </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-        </div>
+img {
+    width: 100%;
+}
 
-    </section>
-    <section class="image-section">
-        <div class="wrapper">
-            <img src="assets/images/illustration-1.svg" alt="">
-        </div>
-    </section>
+a {
+    /* display: block; */
+    color: #003153;
+    text-decoration: none;
+}
 
-    <section id="about" class="about-section">
-        <div class="wrapper">
-            <div class="about-column">
-                <div class="about text-right">
-                    <h2 class="customer-count">3K</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br>Qui consequuntur culpa hic quos
-                        neque
-                        optio
-                        ducimus numquam<br>ratione iure sit quod porro soluta dolores quasi harum iste recusandae,
-                        adipisci
-                        totam!</p>
-                </div>
-            </div>
-            <div class="about-column">
-                <div class="about">
-                    <h2>
-                        Successfully<br>
-                        completed project<br>
-                        and idea
-                    </h2>
-                </div>
-            </div>
-        </div>
-    </section>
+a:hover {
+    color: #0275c7;
+}
 
-    <section id="blogs" class="blog-section">
-        <div class="wrapper">
-            <div class="blog-column">
-                <div class="blog-card blog-card-one">
-                    <img src="assets/images/illustration-5.svg" alt="">
-                    <h3>Bringing you creativity</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, perspiciatis. Perspiciatis
-                        eveniet ipsam ullam error dolor soluta, voluptatibus blanditiis pariatur consectetur, iure
-                        aut
-                        porro quibusdam! Dolorem distinctio impedit fuga.</p>
+h1 {
+    font-size: 5vw;
+}
 
-                </div>
-            </div>
+h2 {
+    font-size: 3vw;
+}
 
-            <div class="blog-column">
-                <div class="blog-card blog-card-two">
-                    <img src="assets/images/illustration-6.svg" alt="">
-                    <h3>Getting done more</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, perspiciatis. Perspiciatis
-                        eveniet ipsam ullam error dolor soluta, voluptatibus blanditiis pariatur consectetur, iure
-                        aut
-                        porro quibusdam! Dolorem distinctio impedit fuga.</p>
+h3 {
+    font-size: 2vw;
+}
 
-                </div>
-            </div>
+.text-right {
+    text-align: right;
+}
 
-            <div class="blog-column">
-                <div class="blog-card blog-card-three">
-                    <img src="assets/images/illustration-7.svg" alt="">
-                    <h3>Increasing your audience</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, perspiciatis. Perspiciatis
-                        eveniet ipsam ullam error dolor soluta, voluptatibus blanditiis pariatur consectetur, iure
-                        aut
-                        porro quibusdam! Dolorem distinctio impedit fuga.</p>
+.wrapper {
+    margin: auto;
+    width: 90%;
+}
 
-                </div>
-            </div>
-        </div>
-    </section>
+div {
+    overflow-wrap: normal;
+}
 
-    <section id="contact" class="contact">
-        <div class="wrapper">
-            <div class="contact-column">
-                <div class="contact-column-body">
-                    <h3>Address</h3>
-                    <ul>
-                        <li><a target="_blank" href="https://goo.gl/maps/Getg7mvHXGyXwCw47">Barishal</a></li>
-                        <li><a target="_blank" href="https://goo.gl/maps/Apn6HsB3CqLfNmBz5">Dhaka</a></li>
-                        <li><a target="_blank" href="https://goo.gl/maps/MWe9CDGsszDeQTTBA">Natore</a></li>
-                        <li><a target="_blank" href="https://goo.gl/maps/q94ZqmXwgq1Yfnm3A">Rajshahi</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="contact-column">
-                <div class="contact-column-body">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><a target="_blank" href="mailto://mehbubearman@gmail.com">Email</a></li>
-                        <li><a target="_blank" href="tel://+8801916095145">Phone</a></li>
-                        <li><a target="_blank" href="https://https://www.facebook.com/kuetarman">Facebook</a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/in/mehbube-arman-9b200062/">Linked In</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="contact-column">
-                <div class="contact-column-body">
-                    <h3>Terms of Service</h3>
-                    <ul>
-                        <li><a target="_blank" href="https://policies.google.com/terms?hl=en-US">Terms of Service</a>
-                        </li>
-                        <li><a target="_blank" href="https://www.microsoft.com/en/servicesagreement/">Saas Agreement</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="contact-column">
-                <div class="contact-column-body">
-                    <h3>Links to Connect</h3>
-                    <ul>
-                        <li><a target="_blank" href="https://marman88.github.io/portfolio/">Website</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
+/*Header related CSS*/
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    min-height: 40px;
+    z-index: 1;
+    box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px;
+    background: white;
+    padding: 0;
+    margin: 0;
+}
 
-</html>
+.logo {
+    margin: 16px 0;
+    width: 20%;
+    float: left;
+}
+
+.logo a {
+    height: 100%;
+    margin: auto;
+}
+
+.logo a img {
+    display: block;
+    height: 36px;
+    margin: auto;
+}
+
+nav {
+    float: right;
+    width: 70%;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 8px 16px;
+    text-transform: capitalize;
+    color: #003153;
+    font-weight: bolder;
+    font-size: 1.5vw;
+}
+
+/*service section*/
+.services {
+    text-align: center;
+    padding: 120px 0 24px 0px;
+}
+
+.services h1 {
+    margin: 36px 0 0 0;
+}
+
+.services h1 span {
+    color: #0c66ff;
+}
+
+/*image section*/
+.image-section {}
+
+.image-section img {
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*about-section*/
+.about-section {
+    margin: 64px 0;
+}
+
+.about-column {
+    float: left;
+    width: 50%;
+}
+
+.about {
+    padding: 30px;
+}
+
+.customer-count {
+    color: red;
+}
+
+
+/*Blog section*/
+.blog-section {
+    padding: 64px 0;
+}
+
+.blog-column {
+    float: left;
+    width: 33.3%;
+
+}
+
+.blog-card {
+    border-radius: 16px;
+    padding: 24px;
+    margin: 8px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.blog-card img {
+    height: 120px;
+    padding: 10px 0;
+}
+
+.blog-card-one {
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.blog-card-one:hover {
+    background-color: rgb(255, 223, 184, 0.7);
+    box-shadow: rgba(255, 223, 184, 0.36) 0px 6px 8px;
+}
+
+.blog-card-two {
+    background: rgba(0, 255, 0, 0.1);
+}
+
+.blog-card-two:hover {
+    background-color: rgb(184, 255, 221, 0.7);
+    box-shadow: rgba(184, 255, 221, 0.36) 0px 6px 8px;
+}
+
+.blog-card-three {
+    background: rgba(255, 255, 0, 0.1);
+}
+
+.blog-card-three:hover {
+    background-color: rgba(195, 255, 184, 0.7);
+    box-shadow: rgba(195, 255, 184, 0.36) 0px 6px 8px;
+}
+
+.blog-card h3 {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+/*contact related CSS*/
+
+.contact {
+    background: #80808020;
+    height: 300px;
+    padding: 64px 0;
+}
+
+.contact-column {
+    float: left;
+    width: 25%;
+}
+
+.contact-column-body {}
+
+.contact-column-body h3 {
+    margin: 12px 0;
+}
+
+.contact-column-body ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.contact-column-body li {
+    list-style-type: none;
+    line-height: 28px;
+}
