@@ -1,0 +1,224 @@
+body {
+    width: 100%;
+    color: #003153;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: #003153;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0275c7;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.wrapper {
+    margin: auto;
+    width: 90%;
+}
+
+div {
+    overflow-wrap: normal;
+}
+
+/*Header related CSS*/
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 40px;
+    z-index: 1;
+    box-shadow: rgb(33 35 38 / 26%) 0px 14px 14px -10px;
+    background: white;
+    padding: 24px 0;
+}
+
+.logo {
+    height: 100%;
+    float: left;
+    padding: 8px 0;
+}
+
+.logo a {
+    height: 100%;
+}
+
+.logo a img {
+    height: 100%;
+}
+
+nav {
+    float: right;
+    height: 100%;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 8px;
+    text-transform: capitalize;
+    color: #003153;
+    font-weight: bolder;
+}
+
+/*service section*/
+.services {
+    text-align: center;
+
+    padding: 100px 0;
+}
+
+.services h1 span {
+    color: darkblue;
+}
+
+/*image section*/
+.image-section {
+    padding: 64px 0;
+}
+
+.image-section img {
+    width: 55%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+/*about-section*/
+.about-section {
+    margin: 64px 0;
+}
+
+.about-column {
+    float: left;
+    width: 50%;
+}
+
+.about {
+    padding: 30px;
+}
+
+.customer-count {
+    color: red;
+}
+
+
+/*Blog section*/
+.blog-section {
+    padding: 64px 0;
+}
+
+.blog-column {
+    float: left;
+    width: 33.3%;
+
+}
+
+.blog-card {
+    border-radius: 16px;
+    padding: 24px;
+    margin: 16px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.blog-card img {
+    height: 200px;
+    padding: 10px 0;
+}
+
+.blog-card-one {
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.blog-card-one:hover {
+    background-color: rgb(255, 223, 184, 0.7);
+    box-shadow: rgba(255, 223, 184, 0.36) 0px 6px 8px;
+}
+
+.blog-card-two {
+    background: rgba(0, 255, 0, 0.1);
+}
+
+.blog-card-two:hover {
+    background-color: rgb(184, 255, 221, 0.7);
+    box-shadow: rgba(184, 255, 221, 0.36) 0px 6px 8px;
+}
+
+.blog-card-three {
+    background: rgba(255, 255, 0, 0.1);
+}
+
+.blog-card-three:hover {
+    background-color: rgba(195, 255, 184, 0.7);
+    box-shadow: rgba(195, 255, 184, 0.36) 0px 6px 8px;
+}
+
+.blog-card h3 {
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+/*contact related CSS*/
+
+.contact {
+    background: lightgray;
+    height: 400px;
+    padding: 64px 0;
+}
+
+.contact-column {
+    float: left;
+    width: 25%;
+}
+
+.contact-column-body {
+    padding: 64px;
+}
+
+.contact-column-body h3 {
+    margin: 12px 0;
+}
+
+.contact-column-body ul {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.contact-column-body li {
+    list-style-type: none;
+    line-height: 34px;
+}
